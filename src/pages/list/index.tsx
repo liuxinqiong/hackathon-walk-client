@@ -1,7 +1,7 @@
 import Taro, { useState, useEffect } from "@tarojs/taro";
 import { ScrollView, View } from "@tarojs/components";
 
-import { Street } from "src/interfaces/street";
+import { Street } from "src/types/street";
 import "./index.less";
 import { getJSON } from "../../utils/request";
 import url from "../../constants/url";

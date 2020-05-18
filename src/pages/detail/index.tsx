@@ -2,7 +2,7 @@ import Taro, { useState, useEffect, useRouter } from "@tarojs/taro";
 import { View, Image } from "@tarojs/components";
 import { AtTag, AtButton } from "taro-ui";
 
-import { Street } from "src/interfaces/street";
+import { Street } from "src/types/street";
 import Card from "../list/Card";
 import "./index.less";
 import url from "../../constants/url";

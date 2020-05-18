@@ -8,7 +8,7 @@ import Taro, {
 import { View, Map, Image, Swiper, SwiperItem } from "@tarojs/components";
 import { AtButton, AtTextarea, AtFloatLayout } from "taro-ui";
 
-import { Street } from "src/interfaces/street";
+import { Street } from "src/types/street";
 import Photor from "../../components/Photor";
 import "./index.less";
 import url from "../../constants/url";

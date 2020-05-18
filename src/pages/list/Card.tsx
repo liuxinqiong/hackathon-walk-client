@@ -1,4 +1,4 @@
-import { Street } from "src/interfaces/street";
+import { Street } from "src/types/street";
 import { View, Map } from "@tarojs/components";
 import Taro, { useMemo } from "@tarojs/taro";
 import { AtRate } from "taro-ui";

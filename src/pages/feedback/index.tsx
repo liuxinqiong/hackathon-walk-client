@@ -8,7 +8,7 @@ import Taro, {
 import { View, Map } from "@tarojs/components";
 import { AtButton, AtTextarea, AtRate } from "taro-ui";
 
-import { Street } from "src/interfaces/street";
+import { Street } from "src/types/street";
 import "./index.less";
 import url from "../../constants/url";
 import { getJSON, postJSON } from "../../utils/request";

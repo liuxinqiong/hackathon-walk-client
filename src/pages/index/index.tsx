@@ -2,7 +2,7 @@ import Taro, { useState, useEffect, useMemo } from "@tarojs/taro";
 import { View, Map } from "@tarojs/components";
 import { AtButton } from "taro-ui";
 
-import { Street } from "src/interfaces/street";
+import { Street } from "src/types/street";
 import "./index.less";
 import url from "../../constants/url";
 import { getJSON } from "../../utils/request";
